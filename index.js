@@ -111,6 +111,9 @@ run().catch(console.dir);
 app.get('/', (req, res) => {
     res.send('Running Unique car server');
 });
+app.get('/nahid', (req, res) => {
+    res.send('Hy, my name is Nahid');
+});
 
 app.listen(port, () => {
     console.log('Listening to port', port);
